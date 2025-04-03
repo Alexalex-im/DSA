@@ -1,0 +1,21 @@
+What is an Algorithm?
+    Set of Instruction to perform a Task.
+
+    Step 1: Choosing flooring
+    Step 2: purchase and bring
+    Step 3: Prepare sub flooring
+    Step 4: determine the layout
+    Step 5: trim door casing
+
+
+Algorithms in our daily lives
+    step 1: Go to bus stop
+    step 2: take a bus
+    step 3: Go to office
+
+    step 1: Go to Starbucks
+    step 2: Pay money
+    step 3: Take a coffee
+
+    Algorithms in Computer Science: Set of rules for a computer program to accomplish a Task.
+                    Input data -> Calculation -> Stop when answer found

@@ -1,0 +1,12 @@
+Practical Use of Hashing
+
+    - Password verification
+    - Personal Computer - Google servers
+        Login : elshad@google.com 
+        Password : 123456
+
+        Hash value : *&71283*a12
+
+
+    - File System : File path is mapped to physical location on disk.
+        Path :/Documents/Files/Hashing.txt

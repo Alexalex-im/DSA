@@ -1,0 +1,12 @@
+Graphs      
+
+    What you will Learn 
+
+        What is a graph ? Why do we need it?
+        Graph Terminologies 
+        Type of graphs. Graph Representation
+        Traversal of graphs. (BFS and DFS)
+        Topological Sorting 
+        Single source shortest path (BFS, Dijkstra and Bellman Ford)
+        All pairs shortest path (BFS, Dijkstra, Bellman Ford and Floyd Warshall algorithms)
+        Minimum Spanning Tree (Kruskal and Prime algorithms)

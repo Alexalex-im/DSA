@@ -1,0 +1,4 @@
+What is a Graph?
+
+    Graph consists of a finite set of Vertices (or nodes) and a set of Edges which connect a pair of nodes.
+    

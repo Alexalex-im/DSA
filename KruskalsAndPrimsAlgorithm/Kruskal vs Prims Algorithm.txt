@@ -1,0 +1,30 @@
+Kruskal vs Prim's 
+
+    Kruskal
+        - Concentrates on Edges 
+        - Finalize edge in each iteration 
+
+    prim's 
+        - Concentrates on Vertices 
+        - Finalize Vertex in each iteration 
+
+    
+Kruskal Applications
+
+    - Landing cables 
+    - TV Network 
+    - Tour Operations
+    - LAN Networks 
+    - A network of pipes for drinking water or natural gas.
+    - An electric grid
+    - Single-link Cluster 
+
+
+Prim's Applications 
+
+    - Network for roads and Rail tracks connecting all the cities.
+    - Irrigation channel and placing microwave towers 
+    - Designing a fiber-optic grid or ICs
+    - Travelling Salesman problem
+    - Cluster analysis 
+    - Pathfinding algorithms used in AI(Artificial Intelligence).  

@@ -1,0 +1,43 @@
+Types Of Algorithms 
+
+    - Simple recursive Algorithms
+    - Divide and conquer Algorithms 
+    - Dynamic programming Algorithms
+    - greedy Algorithms
+    - Brute force Algorithms
+    - Randomized Algorithms
+
+Simple recursion Algorithms
+
+    Algorithm Sum(A, n)
+        if n=1
+            return A[0]
+            a = Sum (A, n-1)  /* recurse on all but last */
+            a = s + A(n-1)    /* add last element  */
+    return a 
+
+Divide and conquer Algorithms
+
+    - Divide the problem into smaller subproblems of the same type, and solve these subproblems recursively
+    - Combine the solutions to the subproblems into a solution to the original problem
+        Examples : Quick sort and merge sort 
+
+Dynamic programming Algorithms
+
+    - They work based on memoization
+    - To find the best solution
+
+Greedy Algorithms 
+
+    - We take the best we can without worrying about future consequences.
+    - We hope that by choosing a local optimum solution at each step, we will end up at a global optimum solution 
+
+Brute force Algorithms
+
+    - It simple tries all possibilities until a satisfactory solution is found
+
+Randomized Algorithms
+
+        - Use a random number at least once during the computation to make a decision 
+
+

@@ -1,0 +1,20 @@
+Pros and Cons of Collision resolution techniques
+
+    Direct Chaining
+        - Hash table never gets full
+        - Huge LinkedList causes performance leaks (Time omplexity for search operation becomes O(n)).
+
+    Open addressing
+        - Easy Implementation
+        - When Hash Table is Full, creation of new Hash table affects performance (Time complexity for search operation becomes O(n)).
+
+
+    -> If the input size is known we always use "Open addressing"
+
+    -> If we perform deletion operation frequently we use "Direct Chaining".
+
+        ABCD        2                   Linear Probing
+        EFGH        1
+        IJKLM       3
+        NOPQ        0
+        RSTU        1

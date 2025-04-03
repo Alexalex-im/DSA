@@ -1,0 +1,21 @@
+Fractional Knapsack Problem 
+
+Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.
+
+20kg, value : 100           30 kg, Value : 120          10 kg, Value : 60 
+
+                    100 + 120 = 220
+
+                    60 + 100 + 120*2/3 = 240
+
+    50 kg 
+
+
+    calculate the density or ratio for each item 
+
+    Sort items based on this ratio 
+
+    Take items with the highest ratio sequentially until weight allows 
+
+    Add the next item as much (fractional) as we can 
+

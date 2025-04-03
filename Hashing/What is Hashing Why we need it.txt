@@ -1,0 +1,28 @@
+What is Hashing ?
+
+    Hashing is a method of sorting and indexing data. The idea behind hashing is to allow large amounts of data to be indexed using keys commonly created by formula.
+
+                      Magic function        ---> Hash Function
+    Apple                  18               ---> Hash value
+    Application            20
+    Appmillers             22
+
+    0   1   ...    18     19      20             21          22          23
+                 Apple          Application             Appmillers
+
+                 Hash Table 
+
+                 
+
+Why Hashing ?
+
+    It is time efficient in case of SEARCH Operation 
+
+
+    Data Structure              Time complexity for SEARCH 
+
+    Array                               O(LogN)
+    Linked List                           O(n)
+    Tree                                O(LogN)
+    Hashing                             O(1)/O(n)
+

@@ -1,0 +1,89 @@
+Curriculum Walkthrough
+
+    Recursion
+    Cracking Recursion Interview Question
+    Big O Notation
+    Cracking Big O Interview Question 
+    Arrays
+        i) One Dimensional Arrays
+        ii) Two Dimensional 
+    Cracking Array Interview Question 
+    Linked List
+        i) Singly Linked List 
+        ii) circular Singly Linked List 
+        iii) Doubly linked List 
+        iv) Circular Doubly Linked List
+    Cracking Linked List Interview Question
+    Stack & Queue
+    Cracking Stack/Queue Interview Question
+    Tree / Binary Tree 
+        i) preOrder Traversal
+        ii) InOrder Traversal 
+        iii) PostOrder Traversal
+        iv) LevelOrder Traversal
+    Binary Search Tree 
+    AVL Tree 
+        i) Left Left Condition
+        ii) Left Right Condition
+        iii) Right Left Condition
+        iv) Right Right Condition
+    Binary Heap
+    Trie
+    Hashing
+    Sort Algorithms
+        i) Bubble Sort
+        ii) Selection Sort
+        iii) Insertion Sort
+        iv) Bucket Sort
+        v) Merge Sort 
+        vi) Quick Sort 
+        vii) Heap Sort 
+    Search Algorithms 
+        i) Linear search
+        ii) Binary Search 
+    Graph Algorithms 
+        i) Breadth First Search 
+        ii) Depth First Search 
+     Topological Sort 
+        i) Single Source Shortest Path Problem 
+        ii) All Pair Shortest Path Problem 
+      Dijkstra's Algorithm 
+      Bellman Ford Algorithm 
+      Floyd Warshall Algorithm 
+      Minimum Spanning Tree 
+        i) Prim's Algorithm
+        ii) Kruskal's Algorithm 
+    Greedy Algorithms 
+        i) Activity Selection Problem 
+        ii) Coin Change problem 
+    Divide and Conquer Algorithms 
+        i) Number factor problem 
+        ii) House robber Problem 
+        iii) Convert One string to another
+        iv) Zero One knapsack Problem 
+        v) Longest Common Subsequence
+        vi) Longest palindromic Subsequence / Substring 
+        vii) Minimum Cost Path Problem 
+    Dynamic Programming 
+        i) Optimal Substructure
+        ii) Overlapping Subproblems 
+        methods:
+            i) Top Down - memoization
+            ii) Bottom Up - Tabulation
+        Common DC Problems
+            i) House Robber Problems
+            ii) Convert One String to Another 
+            iii) Zero Knapsack using DC
+      Challenging Dynamic Programming Excercises
+    A Recipe for Problem Solving 
+    The Wild West
+    
+    
+    
+
+
+
+
+    
+     
+

@@ -1,0 +1,26 @@
+//              Collision Resolution Techniques
+//  Open Addressing: Colliding elements are stored in other vacant buckets. During storage and lookup these are found through so called probing.
+//      Linear probing: It places new key into closest following empty cell.
+
+// ABCD  2
+// EFGH  2
+// IJKLM 2
+
+
+      Hash Table is Full
+  Direct Chaining
+      This situation will never arise.
+
+ ABCD 2
+ EFGH 1
+ IJKLM 2
+ NOPQ 0
+ RSTU 1
+
+ Open addressing  
+     Create 2X size of current Hash Table and recall hashing for current keys
+        ABCD 2
+        EFGH 1
+        IJKLM 3
+        NOPQ  0
+        RSTU  1

@@ -1,0 +1,52 @@
+Hash Functions
+
+    Mod function 
+
+    int mod(int number, int cellNumber) {
+        return number % cellNumber;
+    }
+
+    // mod(400, 24) --------> 16
+    // mod(700, 24) --------> 4
+
+    0  1  ...  4   5  ...  16  ...  23
+              700     ... 400  ...
+
+    
+
+
+    ASCII function 
+    public int modASCII (String word, int cellNumbers)
+    {
+        int total = 0;
+        for (int i=0; i<word.length(); i++)
+        {
+            total += word.charAt(i);
+            System.out.println(total);
+        }
+        return total % cellNumber;
+    }
+
+    modASCII("ABC", 24)
+
+    A ----> 65  65+66+67 = 198 | 24
+    B ----> 66             192 | 8
+    C ----> 67             ----
+                            6
+
+    0   1   ...   6    7   ...   16   ... 23
+
+
+Properties of good Hash function 
+    - It distributes hash values uniformly across hash tables 
+
+           Hash function 
+ABCD  ------------------>  20
+ABCDEF ----------------->  20  (Collision)
+
+    - It has to use all the input data
+     ABCD 
+     ABCDEF 
+
+
+

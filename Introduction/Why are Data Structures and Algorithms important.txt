@@ -1,0 +1,14 @@
+Why are Data Substructures and Algorithms important ?
+
+    Data Processing
+
+    Google Maps
+        - graph Data Structure 
+
+    Library 
+        - Computer Science -> Algorithms section
+
+    Why are Data structures and Algorithms in INTERVIEW ?
+        - Problem solving skills
+        - Fundamental concepts of programming in limited time 
+        

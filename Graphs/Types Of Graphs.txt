@@ -1,0 +1,17 @@
+Graph Types 
+
+                                     Graph       
+
+                    Directed                     Undirected 
+
+        Weighted            Unweighted    Weighted          Unweighted
+
+Positive     Negative                   Positive  Negative  
+
+
+    1. Unweighted - Undirected 
+    2. Unweighted - direction 
+    3. Positive - weighted - undirected 
+    4. Positive - weighted - directed 
+    5. Negative - weighted - Undirected 
+    6. Negative - weighted - directed  

@@ -1,0 +1,25 @@
+Graph Traversal 
+
+    It is a process of visiting all vertices in a given Graph.
+
+    - Breadth First Search 
+    - Depth First Search 
+
+
+    Breadth First Search (BFS)
+
+        BFS is an algorithm for traversing Graph data structure . It starts at some arbitrary node of a graph and explores the neighbor nodes (Which are at current level) first, before moving to the next level neighbors.
+
+
+
+        BFS 
+
+        enqueue any starting vertex 
+        while queue is not empty 
+          p = dequeue()
+          if p is unvisited
+             mark it visited
+             enqueue all adjacent
+             unvisited vertices of p
+
+        Queue  A  B  C  D  G  E  F  

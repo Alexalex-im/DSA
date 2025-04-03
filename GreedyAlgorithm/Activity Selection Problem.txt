@@ -1,0 +1,15 @@
+Activity Selection Problem 
+
+    Given N number of activities with thier start and end times. We need to select the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a time.
+
+    Activity    A1  A2  A3  A4  A5  A6
+    start       0   3   1   5   5   8
+    Finish      6   4   2   8   7   9
+
+
+    Sort activities based on finish time 
+
+    Select first activity from sorted array and print it 
+
+    For all remain activities :
+        If the start time of this activity is greater or equal to the finish time of previously selected activity then select this activity and print it. 

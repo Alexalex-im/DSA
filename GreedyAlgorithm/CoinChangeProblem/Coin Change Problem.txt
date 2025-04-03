@@ -1,0 +1,37 @@
+Coin Change Problem 
+
+    You are given coins of different denominations and total amount of money. Find the minimum number of coins that you need you make up the given amount.
+
+    Infinite supply of denomination : (1, 2, 5, 10, 20, 50, 100, 1000)
+
+    Example 1
+
+    Total amount : 70 
+
+    Answer : 2 --> 50 + 20 = 70
+
+    Example 2
+
+    Total amount : 122
+
+    Answer : 3 --> 100 + 20 + 2 = 121
+
+
+    Total amount : 2035
+
+    2035 - 1000 = 1035          Result : 1000, 1000, 20, 10, 5 
+    1035 - 1000 = 35
+    35 - 20 = 15                Answer : 5
+    15 - 10 = 5
+    5 - 5 = 0
+
+Coin Change Problem 
+
+        Find the biggest coin that is less than given total number 
+
+        Add coin to the result and subtract coin from total number 
+
+        If V is equal to zero :
+            Then print result 
+        else:
+            Repeat Step 2 and 3

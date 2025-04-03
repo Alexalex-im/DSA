@@ -1,0 +1,17 @@
+Depth First Search (DFS)
+
+    DFS is an algorithm for traversing a graph data structure which starts selecting some arbitrary node and explores as far as possible along each edge before backtracking.
+
+    DFS 
+
+    push any starting vertex 
+    while stack is not empty 
+        p = pop()
+        if p is unVisited 
+            mark it visited
+            push all adjacent 
+            unVisited vertices of p 
+
+        
+    A  C  E  F  D  B  G 
+    

@@ -1,0 +1,41 @@
+Kruskal's Algorithm 
+
+    It is a greedy algorithm 
+    It finds a minimum spanning tree for weighted undirected graphs in two steps.
+        - Add increasing cost edges at each step.
+        - Avoid any cycle at each step 
+
+
+    Pseudocode 
+
+    Kruskal(G)
+    for each vertex 
+        makeSet(V)
+    sort each edge in non decreasing order by weight
+    for each edge (u, v)
+        if findSet(u) != findSet(v)
+            union(u, v)
+            cost = cost + edge(u, v) 
+
+    Cost = 0 + 5 + 6 + 8 + 15 = 34 
+
+
+    Kruskal(G)
+    for each vertex                // O(V)
+        makeSet(V)                  
+    sort each edge in non decreasing order by weight    // O(eloge)
+    for each edge (u, v)                // O(e)
+        if findSet(u) != findSet(v)     // O(1)
+            union(u, v)                 // O(V)         // O(ev)
+            cost = cost + edge(u, v)    // O(1)
+
+
+    Time Complexity : O(V + ElogE + EV) = O(Elog(E))
+    Space Complexity : O(V + E) 
+
+
+
+
+
+
+     

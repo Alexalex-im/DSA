@@ -1,0 +1,17 @@
+Pros and Cons of Hashing 
+
+    On an average Insertion / Deletion / Search operations take O(1) time.
+
+    Disadvantages:
+        When Hash function is not good enough Insertion / Deletion / Search operations take O(n) time. 
+
+
+----------------------------------------------------------------------------------
+| Operations   |   Array    |      LinkedList  |        Tree     |   Hashing     |
+----------------------------------------------------------------------------------
+| Insertion    |   O(N)     |       O(N)       |       O(LogN)   |    O(1)/O(N)  |
+----------------------------------------------------------------------------------
+| Deletion     |   O(N)     |       O(N)       |       O(LogN)   |    O(1)/O(N)  |
+----------------------------------------------------------------------------------
+| Search       |   O(N)     |       O(N)       |       O(LogN)   |    O(1)/O(N)  |
+----------------------------------------------------------------------------------

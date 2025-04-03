@@ -1,0 +1,11 @@
+Types of Data structure
+
+    Primitive                   Non primitive 
+
+    Integer                     Linear                Non Linear 
+    Float               static        Dynamic           Tree
+    Character            Array      Linked List         Graph
+    Boolean                         Stack 
+                                    Queue 
+
+
