@@ -1,0 +1,19 @@
+TopDown vs BottomUp
+
+   Problem          Divide and Conquer        Top Down     Bottom Up 
+
+Fibonacci numbers       O(C^n)                  O(n)        O(n)
+
+----------------------------------------------------------------------------------------
+|                  |        Top Down                   |   Bottom Up                   | 
+----------------------------------------------------------------------------------------
+| Easyness         |     Easy to comes up with         |    Difficult to come up       |
+|                  |     solution as it is extension   |    with solution              |
+|                  |     of divide and conquer         |                               |
+----------------------------------------------------------------------------------------
+| Runtime          |             Slow                  |        Fast                   | 
+----------------------------------------------------------------------------------------
+| Space efficiency |    Unnecessary use of stack space |  Stack is not used            |
+----------------------------------------------------------------------------------------
+| When to use      |   Need a quick solution           |  Need an efficient solution   |
+----------------------------------------------------------------------------------------

@@ -1,0 +1,36 @@
+Zero One Knapsack Problem 
+
+Problem Statement:
+
+    - Given the weights and profits of N items
+    - Find the maximum profit within given capacity of C
+    - items cannot be broken 
+
+
+    Example 1 
+
+        Mango           Apple           Orange          Banana
+        Weight : 3      Weight : 1      Weight : 2      Weight : 5
+        Profit : 31     Profit : 26     Profit :17      profit : 72
+
+        Knapsack Capacity : 7 
+
+        - Mango (W:3, P:31) + Apple (W:1, P;26) + Orange (W:2, P:17) = W:6, profit:74
+        - Orange (W:2, P:17) + Banana (W:5, P:72) = W:7, Profit:89
+        - Appale (W:1, P:26) + Banana (W:5, P:72) = W:6, profit:98
+
+        Subproblems:
+            Option1 = 31 + f(2,3,4)     ---------->     Max(Option1, Option2)
+            Option2 = 0 + f(2,3,4)
+
+        zoKnapsack(items, capacity, currentIndex):
+            If capacity <= 0 or currentIndex <0 or currentIndex > len(profits)
+                return 0
+            Elif currentIndexWeight <= capacity
+                Profit1 = currentItemProfit + zoKnapsack(items, capacity - currentItemsWeight, nextItem)
+                Profit2 = zoKnapsack(items, capacity - currentItemsWeight, nextItem)
+                return max(Profit1, Profit2)
+            Else 
+                return 0
+            
+

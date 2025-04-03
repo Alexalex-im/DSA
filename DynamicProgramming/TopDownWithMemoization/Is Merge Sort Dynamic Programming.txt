@@ -1,0 +1,4 @@
+Is Merge Sort Dynamic Programming? 
+
+    1. Does it have Optimal Substructure property?
+    2. Does it have Overlapping Subproblems property?

@@ -1,0 +1,5 @@
+Where does the name of dp come from?
+
+    [   The Term Dynamic programming was originally used in the 1940s by Richard Bellman to describe the process of solvings where one needs ti find the best decisions one alter another.
+        
+        The word dynamic was chosen by Bellman to capture the time-varying aspect of the problem, and because it sounded impressive.]

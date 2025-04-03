@@ -1,0 +1,23 @@
+What is Dynamic Programming ?
+
+    Dynamic Programming (DP) is an algorithmic technique for solving an optimization problem by breaking it down into simpler subproblems and utilizing the fact that the optimal solution to the overall problem depends upon the optimal solution to its subproblems. 
+
+    Example : 1
+
+    1 + 1 + 1 + 1 + 1 + 1 + 1 = 7
+
+    1 + 1 + 1 + 1 + 1 + 1 + 1 + 2 = 9
+
+     Properties : 
+
+        Optimal Substructure:
+                If any problem's overall optimal solution can be constructed from the optimal solutions of its subproblem then this problem has optimal substructure 
+
+                Example: Fib(n) = Fib(n-1) + Fib(n-2)
+
+        Overlapping Subproblem:
+                Subproblems are smaller versions of the original problem. Any problem has overlapping sub-problems if finding its solution involves solving the same subproblem multiple times
+
+
+
+             

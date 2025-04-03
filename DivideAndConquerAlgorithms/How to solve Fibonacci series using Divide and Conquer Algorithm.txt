@@ -1,0 +1,14 @@
+Fibonnaci Series
+
+    Definition : a series of numbers in which each number is the sum of the two preceding numbers. First two numbers by definition are 0 and 1.
+
+    Example : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ....
+
+                Fibonnaci(N) = Fibonnaci(N-1) + Fibonnaci(N-2)
+
+    Fibonnaci(N) :
+        If n <  return error message 
+        If n = 1 return 0
+        If n = 2 return 1
+        Else
+            return Fibonnaci(N-1) + Fibonacci(N-2)

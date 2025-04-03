@@ -1,0 +1,8 @@
+Common Divide and Conquer Algorithm 
+
+    Merge Sort
+
+    Quick Sort 
+    
+     
+

@@ -1,0 +1,7 @@
+Why Floyd Warshall algorithm? 
+
+    - The vertex is not reachable 
+    - Two vertices are directly connected 
+            This is the best solution 
+            It can be improved via other vertex 
+    - Two vertices are connected via other vertex 

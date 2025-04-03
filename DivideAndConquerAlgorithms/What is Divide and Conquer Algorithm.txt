@@ -1,0 +1,31 @@
+What is Divide and Conquer Algorithm?
+
+    Divide and Conquer is an algorithm design paradigm which works by recursively breaking down a problem into subproblems of similer type, until these become simple enough to be solved directly. The solution to the subproblems are then combined to give a solution to the original problem. 
+
+    Example : Developing a website
+
+                                    Website 
+
+            Module 1                Module 2                    Module 3
+
+            Sub M1   Sub M2     Sub M3                 Sub M4        Sub M5 
+
+            Func 1   Func 1     
+            Func 2   Func 2 
+            Func 3   Func 3
+            Func 4   Func 4
+
+            
+
+    Property of Divide and Conquer Algorithm 
+
+    Optimal Substructure : 
+        If any problem's overall optimal solution can be constructed from the optimal solutions of its subproblem then this problem has optimal substructure.
+
+        Example : Fib(n) = Fib(n-1) + Fib(n-2) 
+
+        Why we need it?
+
+            It is very effective when the problem has optimal substructure property. 
+
+    

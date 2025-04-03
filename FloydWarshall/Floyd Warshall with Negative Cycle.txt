@@ -1,0 +1,7 @@
+Floyd Warshall Negative Cycle 
+
+    -8 + 1 + 4 = -3
+
+    - To go through cycle we need to go via negative cycle participating vertex at least twice 
+    - FW never runs loop twice via same vertex 
+    - Hence, FW can never detect a negative cycle 

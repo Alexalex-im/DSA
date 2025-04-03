@@ -1,0 +1,36 @@
+The Longest Common Subsequence (LCS)
+
+    Problem Statement:
+        - S! and S2 are given strings 
+        - Find the length of the longest Subsequence which is common to both string 
+        - Subsequence: a sequence that can be driven from another sequnce by deleting some elements without changing the order of them
+
+        ABCDE        ACE   ADE     ACB 
+                     ABCE   ABDE 
+
+        Example 
+
+            - S1 = "elephant"
+            - S2 = "erepat"
+            - Output = 5 
+            - Longest String : "eepat"
+
+        Subproblems:
+
+            Option1 = 1 + f(2,8 : 2,7)
+            Option2 = 0 + f(3,8 : 2,7)  -----------> Max(Option1, Option2, Option3)
+            Option3 = 0 + f(2,8 : 3,7)
+
+        
+        findCLS(s1, s2, index1, index2):
+            If index1 == len(s1) or index2 == len(s2);
+                return 0
+            If s1(index1) == s2(index2) 
+                return 1 + findCLS(s1, index+1, index2+1)
+
+            Else 
+                op1 = findCLS(s1, s2, index1, index2+1)
+                op2 = findCLS(s1, s2, index1+1, index2)
+                return max(op1, op2)
+
+

@@ -1,0 +1,31 @@
+House Robber 
+
+Problem Statement:
+
+    - Given N number of houses along the street with some amount of money.
+    - Adjacent houses cannot be stolen 
+    - Find the maximum amount that can be stolen 
+
+    Example 1 
+
+    Answer 
+        - Maximum amount = 41
+        - House that are stolen : 7, 30, 4
+
+    Option1 = 6 + f(5)          ---------> Max (Option1, Option2)
+    Option2 = 0 + f(6)          
+
+
+                                maxValueHouse(0)
+
+    maxValueHouse(2)                                maxValueHouse(1)
+
+maxValueHouse(4)            maxValueHouse(3)        maxValueHouse(3)        maxValueHouse(2)
+
+maxValueHouse(houses, currentHouse) :
+    If currentHouse > length of houses 
+        return 0
+    Else
+        stealFirstHouse = currentHouse + maxValueHouse(house, currentHouse+2)
+        skipFirstHouse = maxValueHouse(houses, cuurentHouse+1)
+        return max(stealFirstHouse, skipFirstHouse) 

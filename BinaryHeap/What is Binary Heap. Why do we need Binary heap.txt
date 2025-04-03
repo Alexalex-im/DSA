@@ -1,0 +1,29 @@
+What is a binary Heap?
+
+    A Binary heap is a Binary Tree with following properties.
+
+    - A Binary heap is either Min Heap or Max Heap. In a  Min Binary Heap, the key at root
+      must be minimum among all keys present in Binary heap. The same property must be     recursively true for all nodes in Binary Tree.
+    - It's complete tree (All levels are completely filled axcept possibly the last level and the last level has all keys as left as possible). This property of Binary heap makes them suitable to be stored in an array.
+
+
+Why we need a Binary heap?
+
+    - find the minimum or maximum number among a set of numbers in LogN time. and also we want to make sure that inserting additional numbers does not take more than O(LogN) time.
+
+    posiible solutions
+        - Store the  numbers in sorted Array 
+        10  20  30  40  50 
+        Find minimum: O(1)
+        Insertion: O(n)
+
+        - Store the numbers in Linked List in sorted manner 
+
+    Practical Use
+        - Prim's Algorithm
+        - Heap Sort 
+        - Priority Queue
+
+Types of Binary Heap 
+    Min heap - the value of each node is less than or equal to the value of both its children.
+    Max heap - it is exactly the opposite of min heap that is the value of each node is more than or equal to the value of both its children. 

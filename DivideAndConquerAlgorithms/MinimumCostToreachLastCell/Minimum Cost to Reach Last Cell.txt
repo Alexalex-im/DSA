@@ -1,0 +1,33 @@
+Minimum cost to reach the last cell 
+
+    Problem Statement:
+        - 2D Matrix is given 
+        - Each cell has a cost associated with it or accessing 
+        - We need to start from (0,0) cell and go till (n-1, n-1) cell 
+        - We can go only to right or down cell from current cell 
+        - Find the way in which the cost is minimum 
+
+    Example 
+
+        4   7   8   6   4
+        6   7   3   9   2
+        3   8   1   2   4
+        7   1   7   3   7
+        2   9   8   9   3
+
+        Min Cost : 36 
+
+        Subproblems:
+            Option1 = y + 9 + 3     f(4, 3) ------> Min(Option1, Option2)
+            Option2 = z + 7 + 3     f(3, 4)
+
+        
+        findMinCost(twoDArray, row, col):
+            If row == -1 or col == -1:
+                return inf
+            If row == 0 and col == 0:
+                return twoDArray[two][col]
+            Else 
+                op1 = findMinCost(twoDArray, row-1, col)
+                op2 = findMinCost(twoDArray, row, col-1)
+                return cost[row][col] - min(op1, op2)

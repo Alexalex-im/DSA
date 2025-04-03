@@ -1,0 +1,30 @@
+Floyd Warshall Algorithm 
+
+
+    If D[u][v] > D[u][viax] + D[viax][v] :
+       D[u][v] = D[u][viax] + D[viax][v] 
+
+    C -> B 
+
+    If D[C][B] > D[C][A] + D[A][B] :
+       D[C][B] = D[C][A] + D[A][B]
+
+        > 4 + 8 = 12 
+
+    A -> C 
+
+    If D[A][C] > D[A][B] + D[B][C] :
+       D[A][C] = D[A][B] + D[B][C]
+
+       > 8 + 1 = 9
+
+    D -> C 
+
+    If D[D][C] > D[D][B] + D[A][C] :
+       D[D][C] = D[D][B] + D[A][C]
+
+     9 > 2 + 1 = 3
+
+    If D[u][v] > D[u][viax] + D[viax][v] :
+       D[u][v] = D[u][viax] + D[viax][v] 
+
