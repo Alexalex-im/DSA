@@ -1,0 +1,11 @@
+When to Use Avoid Queue?
+
+    Use : 
+
+        - FIFO functionality
+        - The chance of data corruption is minimum
+
+    Avoid :
+
+        - Random access is not possible
+        

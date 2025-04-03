@@ -1,0 +1,78 @@
+Circular Queue using Array
+
+    Create a Queue 
+
+        newQueue = queue(6)
+            beginningOfQueue = -1
+            topOfQueue = -1
+
+    
+    enQueue Method 
+
+        newQueue.enQueue(5)
+            beginningOfQueue = 0
+            topOfQueue = 1
+
+        newQueue.enQueue(7)
+            beginningOfQueue = 0
+            topOfQueue = 2
+
+
+    deQueue Method
+
+        newQueue.deQueue()     ----> 5    
+            beginningOfQueue = 0          
+            topOfQueue = 5
+
+         newQueue.deQueue()     ---->  6
+            beginningOfQueue = 2
+            topOfQueue = 5
+
+         newQueue.deQueue(1)
+            beginningOfQueue = 2      
+            topOfQueue = 0
+
+        
+    Peek Method 
+
+            newQueue.Peek()    
+                beginningOfQueue = 1        
+                topOfQueue = 5
+
+            newQueue.Peek()    ------> 6
+                beginningOfQueue = 1        
+                topOfQueue = 5
+
+    
+    isFull Method 
+
+            newQueue.isFull()     ------> False  
+                beginningOfQueue = 1       
+                topOfQueue = 5
+
+            newQueue.isFull()     ------> True  
+                beginningOfQueue = 1       
+                topOfQueue = 0
+
+
+    isEmpty Method 
+
+            newQueue.isEmpty()
+                beginningOfQueue = 1
+                topOfQueue = 0
+
+    Delete Method 
+
+            newQueue.delete()
+                
+
+
+
+
+
+
+        
+
+    
+
+

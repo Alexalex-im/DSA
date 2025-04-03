@@ -1,0 +1,68 @@
+Queue Operations
+
+    - Create Queue 
+    - Enqueue
+    - Dequeue
+    - Peek
+    - isEmpty
+    - isFull
+    - deleteQueue
+
+Implementation  
+
+    1. Array
+        - Linear Queue 
+        - Circular Queue 
+    2. Linked List
+        1       2       3
+
+
+Create a Queue 
+    newQueue = queue(6)
+        beginningofQueue = -1
+        topOfQueue = -1
+
+
+enQueue Method
+    newQueue.enqueue(1)
+        beginningofQueue = 0
+        topOfQueue = 0
+
+    newQueue.enqueue(3)
+        beginningofQueue = 0
+        topOfQueue = 2
+
+
+
+deQueue Method
+    newQueue.dequeue()   -----> 1
+        beginningofQueue = 1
+        topOfQueue = 2
+
+
+Peek Method 
+    newQueue.peek()   -----> 1
+        beginningofQueue = 0
+        topOfQueue = 2
+
+
+isEmpty Method
+    newQueue.isEmpty()  ------> False
+        beginningofQueue = 0
+        topOfQueue = 2
+
+
+isFull Method
+    newQueue.isFull()   ------> False
+        beginningofQueue = 0
+        topOfQueue = 2
+
+
+delete Method 
+    newQueue.delete()
+       
+
+
+
+
+    

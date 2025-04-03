@@ -1,0 +1,15 @@
+Why we need Recursion?
+
+1. Recursive thinking is really important in programming and it helps you break down big problems into smaller ones and easier to use.
+
+    - When to choose recursion?
+
+        - If you can divine the problem into similar sub problems
+        - Design an algorithm to compute nth...
+        - Write code to list the n...
+        - Implement a method to compute all.
+        - Practice 
+
+2. The prominent usage of recursion in data structure like trees and graphs.
+3. Interviews 
+4. It is used in many algorithms (divide and conquer, greedy and dynamic programming.

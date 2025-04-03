@@ -1,0 +1,17 @@
+What is Recursion?
+
+Recursion : a way of solving a problem by having a function calling itself
+
+    - Performing the same operation multiple times wit different inputs.
+    - In every step we try smaller inputs to make the problem smaller.
+    - Base condition is needed to stop the recursion, otherwise     infinite loop will occur. 
+
+    Recursion : a way of solving a problem by having a function calling itself
+
+    static void openRussionboll (int doll) {
+        if (doll == 1)
+        System.out.println(" All dolls are opened ");
+    } else {
+        openRussianDoll(doll-1);
+    }
+

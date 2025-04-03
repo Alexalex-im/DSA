@@ -1,0 +1,16 @@
+Disjoint Set 
+
+    It is a data structure that keeps track of set of elements which are partitioned into a number of disjoint and non overlapping sets and each sets have representative which helps in identifying that sets.
+
+        - Make Set 
+        - Union 
+        - Find Set 
+
+    makeSet(N) : used to create initial set 
+    union(x, y) : merge two given sets 
+
+                        A    B      C       D       E 
+
+    union(A, B)         AB          C       D       E   findSet(B) 
+
+    union (A, E)        ABE         C       D   findSet(E)

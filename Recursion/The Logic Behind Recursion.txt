@@ -1,0 +1,70 @@
+The Logic Behind Recursion 
+
+    1. A method calls it self.
+    2. Exit from infinite loop 
+
+    static string recursionMethod (String[] parameters) {
+        if (exit from condition satisfied) {
+            return some value;
+        } else {
+            recursionMethod (modified parameters);
+        }
+    }
+
+
+    The Logic Behind Recursion 
+
+    static void firstMethod() {
+        secondMethod();
+        System.out.println(" I am the first Method ");
+    }
+
+    static void secondMethod() {
+        thirdMethod();
+        System.out.println(" I am the second Method ");
+    }
+
+    static void thirdmethod() {
+        fourthMethod();
+        System.out.println(" I am the third Method ");
+    }
+
+    static void fourthMethod(){
+        System.out.println(" I am the fourth Method ");
+    }
+
+
+    
+    thirdMethod()
+    secondMethod()
+    firstMethod()
+
+    STACK Memory
+
+
+    static void recursiveMethod(int n) {
+        if (n<1) {
+            System.out.println(" n is less than 1");
+        } else {
+            recursiveMethod(n-1);
+            System.out.println(n);
+        }
+    }
+
+    recursivemethod(4)
+        recursiveMethod(3)
+            recursiveMethod(2)
+                recursiveMethod(1)
+                    recursiveMethod(0)
+
+                    n is less than 1
+
+    recursiveMethod(2)
+    recursiveMethod(3)
+    recursiveMethod(4)
+
+    STACK Memory 
+
+
+    
+    

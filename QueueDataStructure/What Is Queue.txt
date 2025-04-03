@@ -1,0 +1,22 @@
+What is a Queue?
+
+    - Queue is a data structure that stores items in a First-in/First-out manner.
+    - A new addition to this queue happens at the end of the queue.
+    - First person in the queue will be served first.
+    - FIFO method - First in First Out.
+
+
+Why do we need Queue?
+
+    - Utilize first coming data first, while others wait for their turn.
+    - FIFO method - First In First Out.
+
+
+    Application :
+        Point sale system of a restaurant
+        Printer Queue 
+        Call center phone systems
+        
+
+
+    

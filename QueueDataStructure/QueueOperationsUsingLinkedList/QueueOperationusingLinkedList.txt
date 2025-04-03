@@ -1,0 +1,40 @@
+Queue using Linked List
+
+    Create a Queue 
+
+        Create an object of Linked List class 
+         
+            Head | null
+            Tail | null
+
+        enQueue() Method 
+
+            Head | null 
+            Tail | null
+
+        deQueue() Method
+
+            Head | 111  ---->  1 | 222  ---->  2 | 333  ----> 3 | null 
+
+            Tail | 333 
+
+
+        Peek() Method 
+
+            Head | 111  ------>  1  |  222 --->  2 | 333 ----> 3 | null
+
+            Tail | 333  
+
+                Peek()
+                    return head.value
+
+        
+        isEmpty() Method 
+
+            Head | 111  ---->   1 | 222  ----->  2 | 333 -----> 3 | null
+
+            Tail | 333 
+
+            delete() 
+                head = Null 
+                tail = Null 

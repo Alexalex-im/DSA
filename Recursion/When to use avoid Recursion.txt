@@ -1,0 +1,16 @@
+When to use Avoid Recurtion ?
+
+    When to use it?
+        - When we can easily breakdown a problem into similar subproblem
+        - When we are fine with extra overhead (both time and space) that comes with it.
+        - When we need a quick working solution instead of efficient one.
+        - When traverse a tree.
+        - When we use memoization in recursion 
+
+            - preorder tree traversal : 15, 9, 3, 1, 4, 12, 23, 17, 28
+
+    When avoid it?
+        - If time and space complexity matters for us.
+        - Recursion uses more memory. If we use embedded memory. for example an application   that takes more memory in the phone is not efficient.
+        -Recursion can be slow.
+        
