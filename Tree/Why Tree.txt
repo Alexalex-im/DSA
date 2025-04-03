@@ -1,0 +1,9 @@
+Why Tree ?
+
+    - Quicker and Easier access to the data 
+    - Store hierarchical data, like folder structure, organization structure, XML/HTML data.
+    - There are many different types of data structures which performs better in various situations
+        - Binary Search Tree, AVL, Red Black Tree, Trie.
+
+The file system on a computer 
+

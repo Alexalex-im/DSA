@@ -1,0 +1,58 @@
+Stack Using Linked List 
+
+    Create a Stack 
+
+        Create an object of Linked List class 
+
+        Head | null
+
+
+        Push() Method
+
+        Head | null         1 | null
+
+
+        Pop() Method
+
+        Head | 333      3 | 222     2 | 111     1 | null
+
+
+        Peek() Method 
+
+        Head | 333      3 | 222     2 | 111      1 | null 
+
+                            3
+                            2
+                            1
+
+        peek()
+            return head.value
+
+
+
+        isEmpty() Method 
+
+        Head | 333      3 | 222     2 | 111      1 | null 
+
+                            3
+                            2
+                            1
+
+        isEmpty()
+            if head == null {
+                true
+            }
+
+
+        Delete() Method 
+
+        Head | 333      3 | 222     2 | 111      1 | null 
+
+                            3
+                            2
+                            1
+
+        delete()
+            head = null 
+
+

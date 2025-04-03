@@ -1,0 +1,81 @@
+Stack Operations    
+
+    - Create Stack
+    - Push
+    - Pop
+    - Peek
+    - isEmpty
+    - isFull
+    - deleteStack
+
+
+    class - customStack()
+
+
+Push Method 
+
+        customStack = [1,2]
+
+        customStack.push(1)
+        customStack.push(2)
+        customStack.push(3)
+        customStack.push(4)
+
+            4
+            3
+            2
+            1
+
+Pop Method 
+
+        customStack = [1,2,3,4]
+
+        customStack.pop()  -> 4
+
+                3
+                2
+                1
+
+        customStack = []
+        customStack.pop()
+
+            This stack is Empty 
+
+        
+Peek Method 
+
+        customStack = [1,2,3,4]
+
+        customStack.peek()  ->  (4 doesn't be removed)
+
+                    4
+                    3
+                    2
+                    1
+
+
+isEmpty Method 
+
+        customStack = [1,2,3,4]
+
+        customStack.isEmpty()  ->  False
+
+
+isFull Method 
+
+        customStack =  [1,2,3,4]
+
+        customStack.isFull()  ->  False 
+
+
+Delete Method 
+
+        customStack = [1,2,3,4]
+
+        customStack.delete()    
+
+
+
+
+
+

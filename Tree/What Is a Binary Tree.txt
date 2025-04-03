@@ -1,0 +1,8 @@
+Binary Tree 
+
+    - Binary trees are the data structures in which each node has at most two children, often referred to as the left and right children.
+    - Binary tree is a family of data structure (BST, Heap tree, AVL, red black trees, Syntax tree)
+    
+    Why Binary tree ?
+        - Binary rees are a prerequisite for mode advanced trees like BST, AVL, Red Black Trees.
+        - Huffman coding problem, heap priority problem and expression parsing problems can be solved efficiently using binary trees.

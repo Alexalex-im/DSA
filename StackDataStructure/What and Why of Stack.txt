@@ -1,0 +1,15 @@
+What is Stack?
+
+    Stack is a data structure that stores items in a Last - In/ First - Out manner.
+    LIFO.
+
+    LIFO method
+
+Why do we need Stack?
+
+    udemy.com  ->  gmail.com  ->  linked.in  ->  appmiller.com
+    
+                        appmiller.com
+                        linked.in
+                        gmail.com
+                        udemy.com

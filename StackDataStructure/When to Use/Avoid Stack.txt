@@ -1,0 +1,9 @@
+When to Use/Avoid Stack 
+
+    use :
+        - LIFO functionality
+        - The chance of data corruption is minimum
+
+    Avoid :
+        - Random access is not possible
+        - 

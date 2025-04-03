@@ -1,0 +1,11 @@
+Stack Creation - Array vs Linked List
+
+    Stack using Array 
+
+        - Easy to implement
+        - Fixed size 
+
+    Stack using Linked List 
+
+        - Variable size
+        - Implementation is not easy 

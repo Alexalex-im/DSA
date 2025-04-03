@@ -1,0 +1,16 @@
+Time and Space Complexity of Topological Sort 
+
+topologicalSort (G) 
+    for all nodes 
+        if vertex not visited 
+            topologicalVisit(node)
+
+
+topologicalVisit(node)
+    for each nodes 
+        if not visited 
+            topologicalVisit(neighbor)
+
+
+//  Time Complexity : O(V+E)
+//  Space Complexity : O(V+E)

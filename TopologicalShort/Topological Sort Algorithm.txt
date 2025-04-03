@@ -1,0 +1,14 @@
+Topological Sort Algorithm 
+
+     A  B  C  D  E  H  F  G 
+     B  A  C  D  E  H  F  G
+
+     B  D  A  C  E  F  G  H 
+
+
+     if a vertex depends on currentVertex:
+        Go to that vertex and 
+        then come back to cuurentVertex
+    else
+        push currentVertex to Stack 
+

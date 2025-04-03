@@ -1,0 +1,6 @@
+Types of Binary Tree 
+
+    Full Binary Tree 
+    Perfect Binary Tree 
+    Complete Binary Tree 
+    Balanced Binary Tree 
