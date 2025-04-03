@@ -1,0 +1,13 @@
+BFS for SSSPP
+
+    BFS 
+
+        enqueue any starting vertex 
+        while queue is not empty 
+            p = dequeue ()
+            if p is unvisited
+                mark it visited
+                enqueue all adjacent unvisited vertices of p 
+                update parent of adjacent vertices to curVertex
+
+Queue  A  B  C  D  G  E  F  

@@ -1,0 +1,7 @@
+Sorting Algorithms 
+
+    What is Sorting refers to arranging data in a particular format : either ascending or descending.
+
+    Practical Uses of Sorting 
+        Microsoft Excel : Built in functionality to sort data.
+        Online Stores : Online shopping : Online shopping websites generally have option sorting by price, review, ratings...   (Amazon)

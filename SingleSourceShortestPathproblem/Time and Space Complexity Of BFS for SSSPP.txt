@@ -1,0 +1,12 @@
+Time and Space Complexity - BFS for SSSPP
+    create queue                        // O(1)
+    enqueue any starting vertex         // O(1)
+        while queue is not empty        // O(V)
+            p = dequeue ()              // O(1)
+            if p is unvisited           // O(1)
+                mark it visited         // O(1)
+                enqueue all adjacent unvisited vertices of p    // O(adj) 
+                update parent of adjacent vertices to curVertex // O(1)
+
+    // Time Complexity : O(E)
+    // Space Complexity : O(V)

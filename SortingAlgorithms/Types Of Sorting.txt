@@ -1,0 +1,43 @@
+Types of Sorting?
+
+                        Sorting 
+
+        Space used                      Stability
+
+
+In pace         Out of place        Stable      Unstable
+
+Space used :
+
+    In place sorting : Sorting algorithms which does not require any extra space for sorting.
+    Example : Bubble Sort 
+
+    70  10  80  30  20  40  60  50  90
+    10  20  30  40  50  60  70  80  90
+
+    Out place sorting : Sorting algorithms which require an extra space for sorting 
+    Example : Merge Sort 
+
+    70  10  80  30  20  40  60  50  90
+    10  20  30  40  50  60  70  80  90
+
+
+Stability :
+
+    Stable sorting : If a sorting algorithm after sorting the contents does not change the sequence of similer content in which they appear, then this sorting is called stable sorting.
+    Example : Insertion Sort 
+
+    70  10  80  40  20  40  60  50  90
+    10  20  40  40  50  60  70  80  90
+
+    UnStable sorting : If a sorting algorithm after sorting the content changes the sequence of similar content in which they appear, then it is called unstable sort. 
+
+    70  10  80  40  20  40  60  50  90
+    10  20  40  40  50  60  70  80  90
+
+    Stablility
+
+    unstable sorting example 
+
+
+

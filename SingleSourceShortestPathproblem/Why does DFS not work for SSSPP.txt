@@ -1,0 +1,3 @@
+Why does DFS not work for SSSPP?
+
+    DFS has the tendency to go "as far as possibel" from source, hence it can find " Shortest Path"
