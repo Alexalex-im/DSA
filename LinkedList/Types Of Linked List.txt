@@ -1,0 +1,57 @@
+Types Of Linked List 
+
+    - Singly Linked List 
+    - Circular Singly Linked List 
+    - Doubly Linked List 
+    - Circular Doubly Linked List 
+
+    Singly Linked List 
+        Head | 1 --->  1 | 111 ---> 4 | 333 ---> 5 | null 
+
+        Tail | 333
+
+        Circular Singly Linked List 
+         Head | 1 --->  1 | 111 ---> 4 | 333 ---> 5 | null 
+
+        Tail | 333
+
+        Circular Singly Linked List 
+         Head | 1 --->  player1 | 111 ---> player2 | 222 ---> player3 | 333 ---> player4 | 001 
+
+        Tail | 333
+
+
+
+    4 Player Chess Board 
+
+
+
+    Doubly Linked List 
+
+    Head | 001 ---> null | 1 | 111 ---> 001 | 2 | 222 ---> 111 |
+     4 |333 ---> 222 | 5 | null 
+
+    Tail | 333
+
+    Ex: 
+        Music Player 
+
+    
+    Circular Doubly Linked List 
+
+    Head | 001 ---> null | 1 | 111 ---> 001 | 2 | 222 ---> 111 |
+     4 |333 ---> 222 | 5 | null 
+
+    Tail | 333  
+
+    Ex:
+        cmd + shift + tab 
+
+    
+
+    
+
+
+
+
+        

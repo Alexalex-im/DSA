@@ -1,0 +1,12 @@
+What is a Linked List?
+
+    Linked List is a form of a sequential collection and it does not have to be in order. A Linked list is made up of independent nodes that may contain any type of data and each node has a refernce to the next node in the link.
+
+    head -> Links -> Cars(index) -> Tail
+
+    - Each car is independent. 
+    - Cars : Passengers and links (nodes: data and links)
+
+    Nodes : data and references. 
+    
+      

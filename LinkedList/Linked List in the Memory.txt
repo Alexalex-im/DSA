@@ -1,0 +1,8 @@
+Linked List in Memory
+
+    Arrays in memory : 0 1 2 3 4 5 
+
+    Linked List :
+        Head | 1 ---> 1 | 111 ---> 2 | 222 ---> 4 | 333 ---> 5 | null 
+
+        

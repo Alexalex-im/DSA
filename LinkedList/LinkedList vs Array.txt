@@ -1,0 +1,16 @@
+Linked List vs Array 
+
+    Linked List = Head | 1 --->  1 | 111 ---> 4 | 333 ---> 5 | null 
+    
+                  Tail | 333
+
+                Array = 0 1 2 3 4 5
+
+    - Element of Linked list are independent objects 
+
+    - Variable size - the size of a linked list is not predefined 
+
+    - Random access - accessing an element is very efficient in arrays
+
+
+
