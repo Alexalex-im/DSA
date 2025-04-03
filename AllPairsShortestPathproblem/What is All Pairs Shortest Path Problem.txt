@@ -1,0 +1,15 @@
+All pair shortest path problem 
+
+    What is single source shortest path?
+        A single source problem is about finding a path between a given vertex (called source) to all other vertices in a graph such that the total distance between them (source and destination) is minimum.
+            
+            - Five office in different cities.
+            - Travel costs between these cities are known.
+            - Find the cheapest way from head office to branches 
+              in different cities.
+
+            The problem :
+                - Five offices in different cities.
+                - Travel costs between these cities are known.
+                - Find the cheapest way to reach each office from 
+                  every other office.  

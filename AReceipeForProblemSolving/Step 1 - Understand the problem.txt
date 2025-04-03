@@ -1,0 +1,29 @@
+Step 1 -  UNDERSTAND THE PROBLEM  
+
+1. Can we restate the problem in our own words?
+
+2. What are the inputs that go into the problem?
+
+3. What are the outputs that come from the problem?
+
+4. Can the outputs be determined from the inputs ? In other words do we have enough information to solve this problem?
+
+5. What should I label the important piece of data that are the part of a problem?
+
+
+Write a function that takes two numbers and returns thier sum 
+
+1. Can we restate the problem in our own words?
+    implement addition 
+
+2. What are the inputs that go into the problem?
+    Integer? Float ? Or?
+
+3. What are the outputs that come from the problem?
+    Integer? Float ? Or?
+
+4. Can the outputs be determined from the inputs ? In other words do we have enough information to solve this problem?
+    Yes
+
+5. What should I label the important piece of data that are the part of a problem?
+    Add, Sum 

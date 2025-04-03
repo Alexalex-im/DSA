@@ -1,0 +1,16 @@
+A Receipe for Problem Solving 
+
+    Problem Solving 
+
+    Algorithm : is a set of steps for accomplish a certain task
+    
+
+    UNTERSTAND THE PROBLEM  
+
+    EXPLORE EXAMPLES 
+
+    BREAK IT DOWN 
+
+    SOLVE / SIMPLIFY
+
+    LOOK BACK REFACTOR

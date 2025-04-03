@@ -1,0 +1,14 @@
+ArrayList
+
+    The size of arraylist CAN be changed, it is NOT fixed.
+
+Difference between Array and ArrayList
+    Size - Size of array is fixed
+    Size - ArrayList size is dynamic
+
+    Type-safety  -  Arrays are always type-safety
+    Type-safety  -  ArrayList they don't have to always doesn't type-safety
+
+    Performance 
+        ArrayList is slower than arrays due to the 
+        overhead of resizing and additional methods

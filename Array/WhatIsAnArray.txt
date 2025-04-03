@@ -1,0 +1,35 @@
+Array  -  (Powerful datastructure)
+
+    - (Collection of books in your table.)
+    - (Clothes in wardrobe.)
+    - (Pens in your desk.)
+
+
+    - It is a box of macaroons.
+    - All macaroons in this box are next to each other
+    - Each macaroon can be identified uniquely based on their location.
+    - The size of box cannot be changed.
+    - Array can store data of specified type.
+    - Elements of an array are located in a contiguous.
+    - Each element of an array has a unique index.
+    - The size of an array is predefined and cannot be modified.
+
+
+    4    3    1     6    8   10    - no gap
+   [0]  [1]  [2]   [3]  [4]  [5]
+
+
+What is an Array?
+    In computer science, an array is a data structure consisting of a Collection of elements,
+    each identified by at least one array index or key. An array is stored such that the 
+    position of each element can be computed from its index by a mathematical formula. 
+
+Why do we need an Array?
+    3 variables 
+        number 1
+        number 2
+        number 3
+
+    - What if 500 integer?
+    - Are we going to use 500 variable?
+    - The answer is an ARRAY.

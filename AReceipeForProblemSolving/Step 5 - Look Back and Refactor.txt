@@ -1,0 +1,8 @@
+        LOOK BACK REFACTOR 
+
+    - Can we check the result?
+    - Can we drive the result differently?
+    - Can we understand it at a glance?
+    - Can we use the result or method for some other problems?
+    - Can you improve the performance of your solution?
+    - How other people solve this problem?
