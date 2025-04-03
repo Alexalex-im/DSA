@@ -1,0 +1,52 @@
+Drop Constant
+
+    public static void printNumbers (int n) {
+        for (int i=0; i<n; i++) {
+            System.out.println(i);      // O(n)
+        }
+    }
+
+Drop constant :
+     public static void printNumbers (int n) {
+        for (int i=0; i<n; i++) {
+            System.out.println(i);      // O(n)
+        }
+
+        for (int j=0; j<n; j++) {
+            System.out.println(j);      // O(n)
+        }
+    }
+
+    n + n = 2n => n 
+
+source code :
+    class App {
+    public static void printNumbers (int n) {
+        for (int i=0; i<n; i++) {
+            System.out.println(i);
+        }
+
+        for (int j=0; j<n; j++) {
+            System.out.println(j);
+        }
+    }
+
+    public static void main(String[] args) {
+        printNumbers(10);
+    }
+
+}
+
+
+    - It is very posiible that O(N) code is faster than O(1) code for specific inputs
+
+    - Difference computers with different architectures have different constant factors.
+
+    Fast computer                     Slow computer
+    Fast memory access                Slow memory access 
+    Lower constant                    Higher constant 
+
+    - different algorithms with the same basic idea and computational complexity might have slightly different constants 
+        Example : a*(b-c) vs a*b-a*c 
+
+    - As n-> infinity, constant factors are not really a big deal

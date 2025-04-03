@@ -1,0 +1,21 @@
+Big O Natations
+
+    - City traffic - 20 liters
+    - Highway - 10 litres 
+    - Mixed condition - 15 liters
+
+    - Best case
+    - Average case 
+    - Worst case
+
+    Greek Letters
+
+        Omega      Theta     Omicron  
+
+    1    2    3    4    5    6    7    8 
+    omega          Theta           Omicron
+
+
+    - Big O : It is a complexity that is going to be less or equal to the worst case.
+    - Big Omega : It is a complexity that is going to be at least more than the best case.
+    - Big theta : It is a complexity that is within bounds of the worst and the best cases. 

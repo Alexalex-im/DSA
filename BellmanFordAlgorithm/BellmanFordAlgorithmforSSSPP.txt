@@ -1,0 +1,28 @@
+Bellman Ford Algorithm 
+
+    Single Sorce Shortest Path Algorithm 
+
+-------------------------------------------------------------------------------------------
+|    Graph Type                          |    BFS    |     Dijksta  |    Bellman Ford     |
+-------------------------------------------------------------------------------------------
+|    Unweighted - undirected             |    OK     |       OK     |       OK            |
+-------------------------------------------------------------------------------------------
+|    Unweighted - directed               |    OK     |       OK     |       OK            |
+-------------------------------------------------------------------------------------------
+|    Positive - weighted - undirected    |    x      |       OK     |       OK            |
+-------------------------------------------------------------------------------------------
+|    Positive - weighted - directed      |    x      |       OK     |       OK            |
+-------------------------------------------------------------------------------------------
+|    Negative - weighted - undirected    |    x      |       OK     |       OK            |
+-------------------------------------------------------------------------------------------
+|    Negative - weighted - directed      |    x      |       OK     |       OK            |
+-------------------------------------------------------------------------------------------
+|    Negative Cycle                      |    x      |       x      |       OK            |
+-------------------------------------------------------------------------------------------
+
+Bellman Ford algorithm is used to find single source shortest path problem. If there is a negative cycle it catches it and report its existence.
+
+If the distance of destination vertex > (distance of source vertex + weight between source and destination vertex) :
+    Update distance of destination vertex to (distance of source vertex + weight between source and destination vertex )
+
+    

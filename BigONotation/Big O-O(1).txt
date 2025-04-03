@@ -1,0 +1,26 @@
+Big O - O(1)
+
+complexity          Name                Sample
+    O(1)          Constant        A simple add numbers function
+    O(N)           Linear         loop through numbers from 1 to n 
+    O(LogN)       Logarithmic     Find an element in sorted array
+    O(N2)         Quadratic           Nested Loops
+
+public static int multiplyNumbers(int n) {
+    return n*n;         // O(1)
+} 
+
+sample program :
+
+class Main {
+    public static int multiplyNumbers (int n) {
+        return n*n;
+}
+    public static void main(String[] args) {
+        System.out.println(multiplyNumbers(3));
+}
+
+}
+
+# Output
+  9

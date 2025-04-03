@@ -1,0 +1,5 @@
+Backtracking vs Brute Force 
+
+Brute Force Search 
+        - Search from root node.
+         

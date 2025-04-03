@@ -1,0 +1,69 @@
+Space Complexity
+
+    public static int sumNumbers (int n) {
+        if (n <= 0) {
+            return 0;
+        }
+        return n + sumNumbers(n-1);
+    }
+
+    sumNumbers(3)
+        sumNumbers(2)
+            sumNumbers(1)
+                sumNumbers(0)
+
+source code :
+
+class App {
+    public static int sumNumbers (int n) {
+        if (n <= 0) {
+            return 0;
+        }
+        return n + sumNumbers(n-1);
+    }
+
+    public static void main(String[] args)
+    {
+        System.out.println(sumNumbers(3));
+    }
+}
+
+
+        Space Complexity : O(n)
+
+    public static int pairSumSequence (int n) {
+        var total = 0;
+        for (int i=0; i<=n; i++) {
+            total = total + pairSum (i, i+1);
+        }
+        return total;
+    }
+
+    public static int pairSum (int a, int b) {
+        return a + b;
+    }
+
+
+source code :
+
+    class App {
+    public static int pairSumSequence (int n) {
+        var total = 0;
+        for (int i=0; i<=n; i++) {
+            total = total + pairSum(i, i+1);
+        }
+        return total;
+    }
+
+    public static int pairSum (int a, int b) {
+        return a+b;
+    }
+
+    public static void main(String[] args)
+    {
+        System.out.println(pairSumSequence(3));
+    }
+}
+
+
+    

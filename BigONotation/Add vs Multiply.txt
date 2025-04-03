@@ -1,0 +1,41 @@
+Add vs Multiply
+
+    public static void printNumbers (int n) {
+        for (int i=0; i<n; i++) {
+            system.out.println(i);      // O(n)
+        }
+
+        for (int j=0; j<n; j++) {
+            system.out.println(j);      // O(n)
+        }
+    }
+
+            O (n + n) = O(2n)   => O(n)
+
+
+       public static void printNumbers (int a, int b) {
+        for (int i=0; i<a; i++) {
+            system.out.println(i);      // O(a)
+        }
+
+        for (int j=0; j<b; j++) {
+            system.out.println(j);      // O(b)
+        }
+    }       
+
+            O (a + b)  => O(a + b)  
+
+    - if your algorithm is in the form "do this, then when
+    you are all done, do that" then you add the runtimes.
+
+
+      public static void printNumbers (int a, int b) {
+        for (int i=0; i<a; i++) {       // O(a)
+            for (int j=0; j<b; j++) {   // O(b)
+                system.out.println(i+" "+j);      
+        }
+    }
+}
+            O(a * b) 
+
+    - If your algorithm is in the form "do this for each time you do that" then you multiply the runtimes.

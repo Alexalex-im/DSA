@@ -1,0 +1,26 @@
+What is backtracking ?
+
+    A backtracking algorithm is a problem-solving algorithm that uses a brute force approach for finding the desired output.
+
+
+                        Brute Force Approach 
+
+            backtracking                  Dynamic Programming
+
+            All Solution                    Best Solution 
+
+There are three of problems in backtracking:
+    Decision problem - Search for a feasible solution.
+    Optimization Problem - search for the best solution 
+    Enumeration Problem - find all feasible solutions.
+
+
+1. Backtracking checks whether the given node is a valid solution or not.
+2. Discard several invalid solution with one iteration.
+3. Enumerate all subtree of the node to find the valid solution.
+
+Example :
+         3! = 6
+         
+
+

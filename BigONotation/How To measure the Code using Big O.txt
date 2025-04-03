@@ -1,0 +1,33 @@
+How to measure the code using Big O?
+
+No       description
+
+Rule 1   Any assignment statement an if statement that are executed     
+         once  regardless of the size of the problem                   O(1)
+
+Rule 2   A simple "for" loop from 0 to n ( with nointernal loops)      O(n)
+ 
+Rule 3   A nested loop of the same type takes quadratic time 
+         complexity                                                   O(n2)
+
+Rule 4   A loop, in which the controlling parameter is divided 
+         by two at eachstep                                        O(log n)
+
+Rule 5   When dealing with multiple statements, just add them up
+
+
+public static void findTotalNumber(int n) {
+    var total = 0;                  // O(1)
+    for (int i=0; i<=n; i++)        // O(n)
+    {                                              // O(n)
+        total += i;                 // O(1)
+    }
+    if (total > 100) {              // O(1)
+        System.out.println("The total number is greater than 100);  // O(1)
+    } else {
+        System.out.println(total);      // O(1)
+    }
+}
+
+
+Time Complexity : O(1) + O(n) + O(1) + O(1) + O(1) = O(n)

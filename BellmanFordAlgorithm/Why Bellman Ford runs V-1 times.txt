@@ -1,0 +1,5 @@
+Why does Bellman Ford run V-1 times?
+
+    - If any node is achieved better distance in previous iteration, then that better distance is used to improve distance of other vertices.
+
+    - Identify worst case graph that can be given to us. 

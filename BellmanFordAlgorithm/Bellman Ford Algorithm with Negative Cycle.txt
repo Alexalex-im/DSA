@@ -1,0 +1,6 @@
+Bellman Ford Algorithm with negative cycle 
+
+    If the distance of destination vertex > (distance of source vertex + weight between source and destination vertex) :
+        Update distance of destination vertex to (distance of source vertex + weight between source and destination vertex)
+
+        

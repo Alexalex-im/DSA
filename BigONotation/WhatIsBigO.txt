@@ -1,0 +1,19 @@
+What is Big O?
+
+    Big O is the language and metric we use to describe the efficiency of algorithms.
+
+    Time Complexity: A way of showing how the runtime of a function increases as the size of input increases.
+
+    Code 1    30 sec
+    Code 2    60 sec 
+        time Complexity
+
+    Code 1    30 sec  // use more memory
+    Code 2    60 sec  // use less memory [Better space Complexity]
+        Space 
+        
+    Types of Runtimes:
+        O(N), O(N2), O(2N)
+        Example : Square width, breadth
+        Time Complexity : O(wh)
+    

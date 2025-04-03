@@ -1,0 +1,12 @@
+Why do we need AVL Tree?
+
+    10, 20, 30, 40, 50, 60, 70
+
+    Search for 60
+
+    Time Complexity is O(n)
+
+
+    // Binary Search Tree 
+
+    Time complexity is O(Logn)
